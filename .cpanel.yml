@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/lucer/public_html/uptime
+    - export DEPLOYPATH=/home/lucer/public_html/uptime/
     - /home/lucer/repositories -R uptime-kuma $DEPLOYPATH
