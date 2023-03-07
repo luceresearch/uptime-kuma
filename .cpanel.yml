@@ -3,3 +3,4 @@ deployment:
       tasks:
         - export DEPLOYPATH=/home/lucer/public_html/uptime/
         - /bin/cp -r /home/lucer/repositories/uptime-kuma/* $DEPLOYPATH
+        - cd /home/lucer/public_html/uptime/ && npm run setup
